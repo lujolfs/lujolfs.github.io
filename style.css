@@ -1,0 +1,33 @@
+               html {   
+        max-width: 700px;
+        margin: 0 auto;
+        padding: 10px;
+        line-height: 1.4;
+      }
+
+        img {
+          max-width: 100%;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+    a:hover {
+    text-decoration: underline;
+}
+
+      @media (prefers-color-scheme: dark) { html
+          {
+       background-color: #071317;
+       color: #fff;
+    }
+} 
+
+   @media (prefers-color-scheme: dark) { a
+          {
+        text-decoration: none;
+        font-weight: bold;
+        color: #0099cc;
+    }
+}
