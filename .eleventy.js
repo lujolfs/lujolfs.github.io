@@ -27,8 +27,8 @@ module.exports = function (eleventyConfig) {
 
     // Add the filter "readableDate" to simplify the way blog dates are presented in the Archives page
     eleventyConfig.addFilter('readableDate', (dateObj) => {
-        return DateTime.fromJSDate(dateObj, { zone: 'utc+9' }).toFormat(
-            'yyyy-LL-dd'
+        return DateTime.fromJSDate(dateObj, { zone: 'utc+8' }).toFormat(
+            'dd/LL/yyyy'
         );
     });
 
