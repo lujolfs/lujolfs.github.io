@@ -3,7 +3,7 @@ layout: layout/post.njk
 permalink: posts/2024-09-18-Tipo-uma-gaveta.html
 title: Tipo uma gaveta
 date: 2024-09-18
-description: Primeiro post!
+description: Primeiro post de verdade!
 featured_image: favicon.png
 tags:
 - diario
